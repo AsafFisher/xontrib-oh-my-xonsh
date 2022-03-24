@@ -31,6 +31,8 @@ jobs:
 
     - name: Install xonsh shell
       run: pip install xonsh
+    - name: Install prompt-toolkit
+      run: pip install prompt-toolkit
     - name: Install xontrib
       run: pip install .
     - name: Test
